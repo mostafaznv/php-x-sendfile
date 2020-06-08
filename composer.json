@@ -1,0 +1,49 @@
+{
+    "name": "mostafaznv/php-x-sendfile",
+    "description": "PHP and Laravel package for download big files without memory footprint",
+    "keywords": [
+        "X-Sendfile",
+        "X-Accel-Redirect",
+        "X-LIGHTTPD-send-file",
+        "X-LiteSpeed-Location",
+        "laravel",
+        "large files",
+        "static file",
+        "packalyst",
+        "mostafaznv"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/mostafaznv/php-x-sendfile/issues",
+        "source": "https://github.com/mostafaznv/php-x-sendfile",
+        "docs": "https://github.com/mostafaznv/php-x-sendfile/blob/master/README.md"
+    },
+    "authors": [
+        {
+            "name": "mostafaznv",
+            "email": "mostafa.zeinivand@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.1",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Mostafaznv\\PhpXsendfile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mostafaznv\\PhpXsendfile\\PhpXsendfileServiceProvider"
+            ],
+            "aliases": {
+                "PhpXsendfile": "Mostafaznv\\PhpXsendfile\\Facades\\PhpXsendfile"
+            }
+        }
+    }
+}
