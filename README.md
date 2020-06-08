@@ -5,6 +5,7 @@ Serve large files using web server with support for laravel
 - Support **Nginx**, **Apache**, **LiteSpeed**, **Lighttpd**
 - Automatic Server Type Detector
 - Configurable
+- Support Cache
 - Set Extra Headers
 - Compatible with Laravel
 
