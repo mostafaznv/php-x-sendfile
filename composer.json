@@ -1,6 +1,6 @@
 {
     "name": "mostafaznv/php-x-sendfile",
-    "description": "PHP and Laravel package for download big files without memory footprint",
+    "description": "Serve large files using web server with support for laravel",
     "keywords": [
         "X-Sendfile",
         "X-Accel-Redirect",

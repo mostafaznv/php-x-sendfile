@@ -1,5 +1,5 @@
 # PHP X-Sendfile
-Serve large files using web server.  
+Serve large files using web server with support for laravel
 
 ## Some features for X-Sendfile:
 - Support **Nginx**, **Apache**, **LiteSpeed**, **Lighttpd**
