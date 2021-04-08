@@ -80,7 +80,7 @@ class DownloadController
         $fileName = 'LargeVideoFile.mp4';
 
         $xSendFile = new PhpXsendfile($config);
-        $xSendFile->setHeader($headers)->download($path);
+        $xSendFile->setHeader($headers)->download($path, $fileName);
     }
 }
 
