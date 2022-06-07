@@ -9,6 +9,13 @@ Serve large files using web server with support for laravel
 - Set Extra Headers
 - Compatible with Laravel
 
+----
+🚀 If you find this project interesting, please consider supporting me on the open source journey
+
+[![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
+
+----
+
 ## Requirements:
 - PHP >=7.0.1
 - FileInfo Extension
@@ -145,9 +152,16 @@ class DownloadController extends Controller
 | 1              | fileName      | null    | string | user defined file name                                              |
 
 #### setHeader
-| Argument Index | Argument Name | Default | Example                             | Type   | Description                                                                                |
-|----------------|---------------|---------|-------------------------------------|--------|--------------------------------------------------------------------------------------------|
-| 0              | headers       |         | ['Header-Name' => 'Header-Value')]  | array  | Key-Value array. <br> **key** is header name <br> **value** is header value                                                                        |
+| Argument Index | Argument Name | Default | Example                            | Type  | Description                                                                 |
+|----------------|---------------|---------|------------------------------------|-------|-----------------------------------------------------------------------------|
+| 0              | headers       |         | ['Header-Name' => 'Header-Value')] | array | Key-Value array. <br> **key** is header name <br> **value** is header value |
+
+----
+🚀 If you find this project interesting, please consider supporting me on the open source journey
+
+[![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
+
+----
 
 ______
 
