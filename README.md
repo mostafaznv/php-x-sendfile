@@ -163,8 +163,6 @@ class DownloadController extends Controller
 
 ----
 
-______
-
 #### Credit and Thanks
 this package inspired by [songlipeng2003's x-sendfile](https://github.com/songlipeng2003/php-x-sendfile).
 
