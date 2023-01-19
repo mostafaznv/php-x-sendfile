@@ -267,6 +267,10 @@ class PhpXsendfile
      */
     protected function basePath(): string
     {
+        if (isset($this->config['base-path']) and $this->config['base-path']) {
+            return realpath($this->config['base-path']);
+        }
+
         return $_SERVER['DOCUMENT_ROOT'];
     }
 }

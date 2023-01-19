@@ -134,11 +134,12 @@ class DownloadController extends Controller
 
 
 ## Config:
-| Key                   | Default | Type    | Description                                                                                                                       |
-|-----------------------|---------|---------|-----------------------------------------------------------------------------------------------------------------------------------|
-| server                | null    | string  | with null value, package will detect server type automatically <br> supported: **Nginx**, **Apache**, **LiteSpeed**, **Lighttpd** |
-| cache                 | true    | boolean | enable/disable for caching response                                                                                               |
-| cache-control-max-age | 2592000 | integer | set maximum age of cache                                                                                                          |
+| Key                   | Default                    | Type    | Description                                                                                                                       |
+|-----------------------|----------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------|
+| server                | null                       | string  | with null value, package will detect server type automatically <br> supported: **Nginx**, **Apache**, **LiteSpeed**, **Lighttpd** |
+| base-path             | $_SERVER['DOCUMENT_ROOT']  | string  | defines base path of your project.                                                                                                |
+| cache                 | true                       | boolean | enable/disable for caching response                                                                                               |
+| cache-control-max-age | 2592000                    | integer | set maximum age of cache                                                                                                          |
 
 
 
@@ -169,12 +170,13 @@ this package inspired by [songlipeng2003's x-sendfile](https://github.com/songli
 ## Changelog
 Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 
+-----
+## Sponsors
+
+[![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
+
+-----
 ## License
 This software released under [Apache License Version 2.0](LICENSE).
 
 (c) 2020 Mostafaznv, All rights reserved.
-
------
-### Sponsors
-
-[![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
