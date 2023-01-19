@@ -173,3 +173,8 @@ Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 This software released under [Apache License Version 2.0](LICENSE).
 
 (c) 2020 Mostafaznv, All rights reserved.
+
+-----
+### Sponsors
+
+[![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
