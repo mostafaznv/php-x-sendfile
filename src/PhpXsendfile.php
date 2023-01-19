@@ -154,7 +154,7 @@ class PhpXsendfile
             $this->server = $this->config['server'];
         }
         else {
-            $serverSoftware = $_SERVER['SERVER_SOFTWARE'] ? $_SERVER['SERVER_SOFTWARE'] : null;
+            $serverSoftware = $_SERVER['SERVER_SOFTWARE'] ?? null;
 
             foreach ($servers as $name => $label) {
                 if (stripos($serverSoftware, $name) !== false) {
