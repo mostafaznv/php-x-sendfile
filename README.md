@@ -10,7 +10,7 @@ Serve large files using web server with support for laravel
 - Compatible with Laravel
 
 ----
-🚀 If you find this project interesting, please consider supporting me on the open source journey
+I develop in a open-source journey 🚀, I wish I lived in an environment where financial situation was fine and I could only focus on the path, but as you may know, life isn't perfect. <br>So if you end up using my packages, please consider making a donation, any amount would go along way and is much appreciated. 🍺
 
 [![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
 
@@ -158,7 +158,7 @@ class DownloadController extends Controller
 | 0              | headers       |         | ['Header-Name' => 'Header-Value')] | array | Key-Value array. <br> **key** is header name <br> **value** is header value |
 
 ----
-🚀 If you find this project interesting, please consider supporting me on the open source journey
+I develop in a open-source journey 🚀, I wish I lived in an environment where financial situation was fine and I could only focus on the path, but as you may know, life isn't perfect. <br>So if you end up using my packages, please consider making a donation, any amount would go along way and is much appreciated. 🍺
 
 [![Donate](https://mostafaznv.github.io/donate/donate.svg)](https://mostafaznv.github.io/donate)
 
